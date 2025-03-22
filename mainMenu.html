@@ -3,15 +3,21 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>cafe al Ostoura</title>
+    <title>Ostora cafe</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <style>
+    body{
+      overflow-x: hidden;
+    }
+
+  </style>
   </head>
   <body>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#"> <img class="img-fluid d-block w-75" src="img/ostoralogo.jpg" style="height: 50px;" alt=""></a>
+          <a class="navbar-brand" href="#"> <img class="img-fluid d-block w-75" src="images/ostoralogo.jpg" style="height: 50px;" alt=""></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -21,43 +27,46 @@
                 <a class="nav-link active" aria-current="page" href="mainMenu.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="smoothies.html">smoothies</a>
+                <a class="nav-link" href="#smoothies">smoothies</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="milkshakes.html">milkshakes</a>
+                <a class="nav-link" href="#milkshakes">milkshakes</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="coffee.html">coffee</a>
+                <a class="nav-link" href="#coffee">iced coffee & latte</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="argile.html">argile</a>
+                <a class="nav-link" href="#other">coffee</a>
               </li>
+              <hr>
               <li class="nav-item">
-                <a class="nav-link" href="argile.html">location</a>
+                <a class="nav-link" href="location.html">location</a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
+
       <div class="container-fluid mt-3">
+
+
         <h1 class="text-center mb-5">menu</h1>
-        <div class="row">
-            <h2 class="h2">smoothies <img style="width: 40px;height: 40px;" src="img/smoothies.png" alt=""> </h2>
+        <div class="row w-100">
+            <h2 class="h2 border-bottom border-black p-2" id="smoothies">smoothies <img style="width: 40px;height: 40px;" src="images/smoothies.png" alt=""> </h2>
             <div class="col-md-4">
                 <div class="card text-center p-3  mb-3 border-0" >
-                    <img src="img/strawberrysmoothie.jpg  " class=" d-block w-25 h-50 mx-auto" alt="...">
+                    <img src="images/strawberrysmoothie.jpg" class=" d-block w-25 h-50 mx-auto" alt="...">
                     <div class="card-body">
                       <h5 class="card-title mb-3">strawberry smoothie</h5>
                       <h4 class="text-center border border-1 border-success  p-1 mt-3">350,000 L.L</h4>
                       
-                    
                     </div>
                   </div>
 
             </div>
             <div class="col-md-4" >
                 <div class="card text-center p-3  mb-3 border-0" >
-                    <img src="img/mangosmoothie.jpg  " class=" d-block w-25 h-50 mx-auto" alt="...">
+                    <img src="images/mangosmoothie.jpg  " class=" d-block w-25 h-50 mx-auto" alt="...">
                     <div class="card-body">
                       <h5 class="card-title mb-3">mango smoothie</h5>
                       <h4 class="text-center border border-1 border-success  p-1 mt-3">350,000 L.L</h4>
@@ -69,7 +78,7 @@
             </div>
             <div class="col-md-4">
                 <div class="card text-center p-3  mb-3 border-0" >
-                    <img src="img/tropicalsmoothie.jpg  " class=" d-block w-25 h-50 mx-auto"  alt="...">
+                    <img src="images/tropicalsmoothie.jpg  " class=" d-block w-25 h-50 mx-auto"  alt="...">
                     <div class="card-body">
                       <h5 class="card-title mb-3">tropical smoothie</h5>
                       <h4 class="text-center border border-1 border-success  p-1 mt-3">350,000 L.L</h4>
@@ -81,13 +90,14 @@
             </div>
             
         </div>
-        <div class="row mt-5">
+        <div class="row mt-3">
+            <h2 class="h2 border-bottom border-black p-2" id="milkshakes">milkshakes <img src="images/milkshake.png" style="width: 40px;height: 40px;" alt=""></h2>
             <div class="col-md-4">
-                <div class="card text-center p-3  mb-3" >
-                    <img src="img/strawberrysmoothie.jpg  " class=" d-block w-25 mx-auto" alt="...">
+                <div class="card text-center p-3  mb-3 border-0" >
+                    <img src="images/strawberrymilkshake.jpg  "  class=" d-block w-50  mx-auto" alt="...">
                     <div class="card-body">
-                      <h5 class="card-title mb-3">strawberry smoothie</h5>
-                      <h4 class="text-center border border-1 border-success  p-1 mt-3">350,000 L.L</h4>
+                      <h5 class="card-title mb-3">strawberry milkshake</h5>
+                      <h4 class="text-center border border-1 border-success  p-1 mt-3">430,000 L.L</h4>
                       
                     
                     </div>
@@ -95,22 +105,238 @@
 
             </div>
             <div class="col-md-4">
-                <div class="card text-center p-3  mb-3" >
-                    <img src="img/strawberrysmoothie.jpg  " class=" d-block w-25 mx-auto" alt="...">
+                <div class="card text-center p-3  mb-3 border-0" >
+                    <img src="images/oreomilkshake.jpg  "  class=" d-block w-25  mx-auto" alt="...">
                     <div class="card-body">
-                      <h5 class="card-title mb-3">strawberry smoothie</h5>
-                      <h4 class="text-center border border-1 border-success  p-1 mt-3">350,000 L.L</h4>
+                      <h5 class="card-title mb-3">oreo milkshake</h5>
+                      <h4 class="text-center border border-1 border-success  p-1 mt-3">430,000 L.L</h4>
                       
                     
                     </div>
                   </div>
 
             </div>
-           
+            <div class="col-md-4">
+                <div class="card text-center p-3  mb-3 border-0" >
+                    <img src="images/chocolatesmoothie.jpg  "  class=" d-block w-25  mx-auto" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title mb-3">chocolate milkshake</h5>
+                      <h4 class="text-center border border-1 border-success  p-1 mt-3">430,000 L.L</h4>
+                      
+                    
+                    </div>
+                  </div>
+
+            </div>
+          
+            </div>
+            <div class="row mt-3 w-100">
+              <h2 class="h2 border-bottom border-black p-2 " id="coffee">iced coffee & latte <img style="width: 40px;height: 40px;" src="images/coffee.png" alt=""></h2>
+              <div class="col-md-4">
+                  <div class="card text-center p-3  mb-3 border-0" >
+                      <img src="images/icedcoffe.jpg  "  class=" d-block w-50  mx-auto" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title mb-3">iced coffee</h5>
+                        <h4 class="text-center border border-1 border-success  p-1 mt-3">270,000 L.L</h4>
+                        
+                      
+                      </div>
+                    </div>
+  
+              </div>
+              <div class="col-md-4">
+                <div class="card text-center p-3  mb-3 border-0" >
+                    <img src="images/caramellatte.jpg  "  class=" d-block w-50  mx-auto" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title mb-3">caffe latte</h5>
+                      <h4 class="text-center border border-1 border-success  p-1 mt-3">250,000 L.L</h4>
+                      
+                    
+                    </div>
+                  </div>
+
+            </div>
+            <div class="col-md-4">
+              <div class="card text-center p-3  mb-3 border-0" >
+                  <img src="images/caramel.jpg  "  class=" d-block w-50  mx-auto" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title mb-3">caramel</h5>
+                    <h4 class="text-center border border-1 border-success  p-1 mt-3">270,000 L.L</h4>
+                    
+                  
+                  </div>
+                </div>
+
+          </div>
+            <div class="col-md-4">
+              <div class="card text-center p-3  mb-3 border-0" >
+                  <img src="images/mocha.jpg "  class=" d-block w-50  mx-auto" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title mb-3"> chocolate(mocha)</h5>
+                    <h4 class="text-center border border-1 border-success  p-1 mt-3">270,000 L.L</h4>
+                  </div>
+                </div>
+
+          </div>
+          <div class="col-md-4">
+            <div class="card text-center p-3  mb-3 border-0" >
+                <img src="images/mochalatte.jpg "  class=" d-block w-50  mx-auto" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title mb-3">mocha latte</h5>
+                  <h4 class="text-center border border-1 border-success  p-1 mt-3">250,000 L.L</h4>
+                </div>
+              </div>
+
         </div>
-
+        <div class="col-md-4">
+          <div class="card text-center p-3  mb-3 border-0" >
+              <img src="images/caramellatte1.jpg "  class=" d-block w-50  mx-auto" alt="...">
+              <div class="card-body">
+                <h5 class="card-title mb-3">caramel latte</h5>
+                <h4 class="text-center border border-1 border-success  p-1 mt-3">250,000 L.L</h4>
+              </div>
+            </div>
 
       </div>
+     
+    <div class="col-md-4">
+      <div class="card text-center p-3  mb-3 border-0" >
+          <img src="images/hotchocolate.jpg "  class=" d-block w-50  mx-auto" alt="...">
+          <div class="card-body">
+            <h5 class="card-title mb-3">hot chocolate</h5>
+            <h4 class="text-center border border-1 border-success  p-1 mt-3">270,000 L.L</h4>
+          </div>
+        </div>
+
+  </div>
+          </div>
+          <div class="row mt-3 w-100">
+            <h2 class="h2 border-bottom border-black p-2" id="other">other drinks <img style="width: 40px;height: 40px;" src="images/otherdrinks.png" alt=""></h2>
+            <div class="col-md-4">
+              <div class="card text-center p-3  mb-3 border-0" >
+                  <img src="images/nescafe.jpg "  class=" d-block w-50  mx-auto" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title mb-3">Nescafe</h5>
+                    <h4 class="text-center border border-1 border-success  p-1 mt-3">100,000 L.L</h4>
+                  </div>
+                </div>
+        
+          </div>
+          <div class="col-md-4">
+            <div class="card text-center p-3  mb-3 border-0" >
+                <img src="images/cacao.jpg "  class=" d-block w-50  mx-auto" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title mb-3">cacao</h5>
+                  <h4 class="text-center border border-1 border-success  p-1 mt-3">80,000 L.L</h4>
+                </div>
+              </div>
+      
+        </div>
+        <div class="col-md-4">
+          <div class="card text-center p-3  mb-3 border-0" >
+              <img src="images/cuppuccino.jpg "  class=" d-block w-50  mx-auto" alt="...">
+              <div class="card-body">
+                <h5 class="card-title mb-3">cappuccino</h5>
+                <h4 class="text-center border border-1 border-success  p-1 mt-3">80,000 L.L</h4>
+              </div>
+            </div>
+    
+      </div>
+      <div class="col-md-4">
+        <div class="card text-center p-3  mb-3 border-0" >
+            <img src="images/tea.jpg "  class=" d-block w-50  mx-auto" alt="...">
+            <div class="card-body">
+              <h5 class="card-title mb-3">tea</h5>
+              <h4 class="text-center border border-1 border-success  p-1 mt-3">50,000 L.L</h4>
+            </div>
+          </div>
+  
+    </div>
+    <div class="col-md-4">
+      <div class="card text-center p-3  mb-3 border-0" >
+          <img src="images/zhourat.jpeg "  class=" d-block w-50  mx-auto" alt="...">
+          <div class="card-body">
+            <h5 class="card-title mb-3">zhourat</h5>
+            <h4 class="text-center border border-1 border-success  p-1 mt-3">50,000 L.L</h4>
+          </div>
+        </div>
+
+  </div>
+  <div class="col-md-4">
+    <div class="card text-center p-3  mb-3 border-0" >
+        <img src="images/ginger.jpg "  class=" d-block w-50  mx-auto" alt="...">
+        <div class="card-body">
+          <h5 class="card-title mb-3">zanjabil</h5>
+          <h4 class="text-center border border-1 border-success  p-1 mt-3">50,000 L.L</h4>
+        </div>
+      </div>
+
+</div>
+<div class="col-md-4">
+  <div class="card text-center p-3  mb-3 border-0" >
+      <img src="images/coffeecup.jpg "  class=" d-block w-50  mx-auto" alt="...">
+      <div class="card-body">
+        <h5 class="card-title mb-3">coffee</h5>
+        <h4 class="text-center border border-1 border-success  p-1 mt-3">70,000 L.L</h4>
+      </div>
+    </div>
+
+</div>
+<div class="col-md-4">
+  <div class="card text-center p-3  mb-3 border-0" >
+      <img src="images/water.jpg "  class=" d-block w-50  mx-auto" alt="...">
+      <div class="card-body">
+        <h5 class="card-title mb-3">water</h5>
+        <h4 class="text-center border border-1 border-success  p-1 mt-3">30,000 L.L</h4>
+      </div>
+    </div>
+
+</div>
+<div class="col-md-4">
+  <div class="card text-center p-3  mb-3 border-0" >
+      <img src="images/nesquick.jpg "  class=" d-block w-50  mx-auto" alt="...">
+      <div class="card-body">
+        <h5 class="card-title mb-3">Nesquick</h5>
+        <h4 class="text-center border border-1 border-success  p-1 mt-3">80,000 L.L</h4>
+      </div>
+    </div>
+
+</div>
+    </div>
+    <div class="row w-100">
+      <h2 class="h2 border-bottom border-black p-2">mixes <img style="width: 40px;height: 40px;" src="images/mixes.png" alt=""></h2>
+      <div class="col-md-4">
+        <div class="card text-center p-3  mb-3 border-0" >
+            <img src="images/7upmix.jpg "  class=" d-block w-50  mx-auto " alt="...">
+            <div class="card-body">
+              <h5 class="card-title mb-3">7up & blueberry</h5>
+              <h4 class="text-center border border-1 border-success  p-1 mt-3">150,000 L.L</h4>
+            </div>
+          </div>
+      
+      </div>
+      <div class="col-md-4">
+        <div class="card text-center p-3  mb-3 border-0" >
+            <img src="images/strawberrymix.jpg "  class=" d-block w-25  mx-auto" alt="...">
+            <div class="card-body">
+              <h5 class="card-title mb-3">boom boom & strawberry</h5>
+              <h4 class="text-center border border-1 border-success  p-1 mt-3">150,000 L.L</h4>
+            </div>
+          </div>
+      
+      </div>
+      
+
+
+    </div>
+            
+           
+        </div>
+        
+        
+
+
+    
 
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
